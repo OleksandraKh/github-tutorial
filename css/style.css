@@ -1,1 +1,25 @@
+:root {
+  --primary-text-color: #757575; /* Вторичный цвет текста */
+  --title-text-color: #212121; /*Цвет основного текста */
+  --accent-color: #2196f3; /*Акцент */
+  --primary-white-color: #ffffff; /* Белый цвет */
+  /* опциональный цвет текста rgba(255, 255, 255, 0.6) 
+  rgba(255, 255, 255, 0.4); */
+  /* Вторичный цвет фона #F5F4FA */
+}
 
+body {
+  background-color: #ffffff;
+  color: #212121;
+
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
